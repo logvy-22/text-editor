@@ -1,0 +1,15 @@
+.textEditorField {
+    margin-top: 50px;
+    min-height: 200px;
+    border: 1px dashed grey;
+    padding: 20px;
+}
+
+.textEditorField:focus {
+    outline: none;
+}
+
+[contenteditable=true]:empty:before{
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+}

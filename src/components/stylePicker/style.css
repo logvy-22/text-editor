@@ -1,0 +1,24 @@
+.style-pickers {
+    display: flex;
+    justify-content: center;
+}
+.style-picker-wrapper {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.style-picker-wrapper:hover span {
+    font-weight: 600;
+}
+.style-picker-wrapper span {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    color: #000;
+}
