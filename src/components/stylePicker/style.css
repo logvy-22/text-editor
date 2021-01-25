@@ -2,6 +2,23 @@
     display: flex;
     justify-content: center;
 }
+
+.style-pickers .btn {
+    cursor: pointer;
+}
+
+.style-pickers .underline {
+    text-decoration: underline;
+}
+
+.style-pickers .bold {
+    font-weight: 600;
+}
+
+.style-pickers .italic {
+    font-style: italic;
+}
+
 .style-picker-wrapper {
     height: 30px;
     width: 30px;
@@ -11,9 +28,11 @@
     border-radius: 2px;
     cursor: pointer;
 }
+
 .style-picker-wrapper:hover span {
     font-weight: 600;
 }
+
 .style-picker-wrapper span {
     position: absolute;
     transform: translate(-50%, -50%);
