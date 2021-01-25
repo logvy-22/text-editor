@@ -5,11 +5,12 @@ import './style.css';
 
 function StylePicker({ chosenStyles }) {
   const isActiveState = btnValue => chosenStyles.includes(btnValue);
+
   return (
     <div className="style-pickers">
-      <StyleBtn styleName="bold" btnText="b" isActive={isActiveState('b')} />
-      <StyleBtn styleName="italic" btnText="i" isActive={isActiveState('i')} />
-      <StyleBtn styleName="underline" btnText="u" isActive={isActiveState('u')} />
+      <StyleBtn styleName="bold" btnText="b" className="bold" isActive={isActiveState('b')} />
+      <StyleBtn styleName="italic" btnText="i" className="italic" isActive={isActiveState('i')} />
+      <StyleBtn styleName="underline" btnText="u" className="underline" isActive={isActiveState('u')} />
     </div>
   );
 }

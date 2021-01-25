@@ -7,8 +7,9 @@ function StyleButton({
   btnText,
   handleChooseStyle,
   isActive,
+  className,
 }) {
-  let classList = 'btn styleBtn';
+  let classList = `btn styleBtn ${className}`;
   if (isActive) {
     classList += ' active';
   }
@@ -28,6 +29,7 @@ StyleButton.propTypes = {
   btnText: PropTypes.string.isRequired,
   handleChooseStyle: PropTypes.func.isRequired,
   isActive: PropTypes.bool.isRequired,
+  className: PropTypes.string.isRequired,
 };
 
 export default StyleButton;

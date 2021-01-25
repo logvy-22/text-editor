@@ -1,6 +1,7 @@
 .styleBtn {
     min-width: 30px;
 }
+
 .styleBtn.active {
-    font-weight: 800;
+    background-color:#f1ff30;
 }

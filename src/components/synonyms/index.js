@@ -7,7 +7,7 @@ function Synonyms({ synonymsArray, handleSynonymSelect }) {
     <div>
       <h2>Synonyms</h2>
       {!synonymsArray.length && <span>Select world</span>}
-      { synonymsArray.map(synonym => (
+      {synonymsArray.map(synonym => (
         <button
           key={synonym}
           type="button"

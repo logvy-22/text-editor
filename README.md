@@ -1,11 +1,9 @@
-# Описание
-Текстовый редактор сделанный с использованием:
+# Description
+Text editor implemented with following instruments:
 - React
 - Redux
 - Redux Saga
 
-Основная функциональность по взаимодействию с текстом находится в `utils/index.js`
-
-# Как запустить
+# How to run:
 1. `npm i`
 2. `npm start`
